@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Billing Form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Billing Form</h1>
+        <form method="post" name="google-sheet">
+            <label for="billNo">Bill Number:</label>
+            <input type="text" id="billNo" name="BILL NO" placeholder="Enter Bill Number" required>
+
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="DATE" required>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="NAME" placeholder="Enter Name" required>
+
+            <label for="aadhaar">Aadhaar Number:</label>
+            <input type="text" id="aadhaar" name="ADHAAR NO" placeholder="Enter Aadhaar Number" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="PHONE NO" placeholder="Enter Phone Number" required>
+
+            <label for="model">Model:</label>
+            <input type="text" id="model" name="MODEL" placeholder="Enter Model" required>
+
+            <label for="imei">IMEI Number:</label>
+            <input type="text" id="imei" name="IMEI" placeholder="Enter IMEI Number" required>
+
+            <label for="serialNo">Serial Number:</label>
+            <input type="text" id="serialNo" name="SERIAL NO" placeholder="Enter Serial Number" required>
+
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="PRICE" placeholder="Enter Price" required>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
